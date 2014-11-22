@@ -1,5 +1,9 @@
 package api;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.OutputStream;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +13,6 @@ import com.hp.hpl.jena.query.Query;
 import com.hp.hpl.jena.query.QueryExecution;
 import com.hp.hpl.jena.query.QueryExecutionFactory;
 import com.hp.hpl.jena.query.QueryFactory;
-import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 import com.hp.hpl.jena.query.ResultSetFormatter;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
@@ -30,29 +33,23 @@ public class CrawlData {
 		QueryExecution qexec = QueryExecutionFactory.create(query, model1);
 
 		ResultSet results = qexec.execSelect();
-		ResultSetFormatter.out(System.out, results, query);
+//		OutputStream
+		OutputStream output = null;
+		try {
+			output = new FileOutputStream("/Users/shuaiwang/Documents/eclipse workspace/Sparql/WebContent/data/test1.json");
+			ResultSetFormatter.outputAsJSON(output, results);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+//		System.out.println("===========================================================");
+//		System.out.println(results);
+		
+		
+		
+//		ResultSetFormatter.out(System.out, results, query);
 		List<Movie> movies = new ArrayList<>();
-//		while (results.hasNext()) {
-//			QuerySolution tuple = results.next();
-//			String name = tuple.get("actor").toString();
-//			System.out.println(name);
-////			String film = tuple.get("film").toString();
-////
-////			String title = tuple.get("title").toString();
-////			List<String> titles = new ArrayList<>();
-////			titles.add(title);
-////
-////
-////			String language = tuple.get("language").toString();
-////			List<String> languages = new ArrayList<String>();
-////			languages.add(language);
-////
-////			Movie movie = new Movie();
-////			movie.setFilm(film);
-////			movie.setTitle(titles.get(0));
-////			movie.setLanguage(languages);
-////			movies.add(movie);
-//		}
 		qexec.close();
 		System.out.println("success!");
 		return movies;
