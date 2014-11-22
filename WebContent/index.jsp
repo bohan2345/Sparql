@@ -461,180 +461,194 @@
 		</div>
 	</div>
 
-
 	<script type="text/javascript">
+	
+	window.HW = {};
+	$.ajax({
+		url: "http://localhost:8080/Sparql/data/test1.json",
+		contentType : "application/json",
+		success: function(data) {
+			window.HW.test1 = data;
+			init();
+		}
+	});
+	
+	
+	function init() {
+		console.log(window.HW.test1);
+		if ($('#best-movie').length) {
+
+			Morris.Bar({
+				element : 'best-movie',
+				data : [ {
+					x : 'some director',
+					y : 4.3,
+					a : 5.4
+				}, {
+					x : 'some director',
+					a : 8
+				}, {
+					x : 'some director',
+					a : 3
+				}, {
+					x : 'some director',
+					a : 4
+				}, {
+					x : 'some director',
+					a : 5
+				}, {
+					x : 'some director',
+					a : 6
+				}, {
+					x : 'some director',
+					a : 7
+				}, {
+					x : 'some director',
+					a : 8
+				}, {
+					x : 'some director',
+					a : 9
+				}, {
+					x : 'some director',
+					a : 2
+				} ],
+				xkey : 'x',
+				ykeys : [ 'a','y' ],
+				labels : [ 'A' ]
+			});
+
+		}
+		
+		if ($('#best-book').length) {
+
+			Morris.Bar({
+				element : 'best-book',
+				data : [ {
+					x : 'some director',
+					a : 1.4
+				}, {
+					x : 'some director',
+					a : 2.2
+				}, {
+					x : 'some director',
+					a : 3
+				}, {
+					x : 'some director',
+					a : 4
+				}, {
+					x : 'some director',
+					a : 5
+				}, {
+					x : 'some director',
+					a : 6
+				}, {
+					x : 'some director',
+					a : 7
+				}, {
+					x : 'some director',
+					a : 8
+				}, {
+					x : 'some director',
+					a : 9
+				}, {
+					x : 'some director',
+					a : 2
+				} ],
+				xkey : 'x',
+				ykeys : [ 'a' ],
+				labels : [ 'A' ]
+			});
+
+		}
+		
+
+		if ($('#best-director').length) {
+
+			Morris.Bar({
+				element : 'best-director',
+				data : [ {
+					x : 'some director',
+					a : 1.4
+				}, {
+					x : 'some director',
+					a : 2.2
+				}, {
+					x : 'some director',
+					a : 3
+				}, {
+					x : 'some director',
+					a : 4
+				}, {
+					x : 'some director',
+					a : 5
+				}, {
+					x : 'some director',
+					a : 6
+				}, {
+					x : 'some director',
+					a : 7
+				}, {
+					x : 'some director',
+					a : 8
+				}, {
+					x : 'some director',
+					a : 9
+				}, {
+					x : 'some director',
+					a : 2
+				} ],
+				xkey : 'x',
+				ykeys : [ 'a' ],
+				labels : [ 'A' ]
+			});
+
+		}
+		
+		if ($('#best-actor').length) {
+
+			Morris.Bar({
+				element : 'best-actor',
+				data : [ {
+					x : 'some director',
+					a : 1.4
+				}, {
+					x : 'some director',
+					a : 2.2
+				}, {
+					x : 'some director',
+					a : 3
+				}, {
+					x : 'some director',
+					a : 4
+				}, {
+					x : 'some director',
+					a : 5
+				}, {
+					x : 'some director',
+					a : 6
+				}, {
+					x : 'some director',
+					a : 7
+				}, {
+					x : 'some director',
+					a : 8
+				}, {
+					x : 'some director',
+					a : 9
+				}, {
+					x : 'some director',
+					a : 2
+				} ],
+				xkey : 'x',
+				ykeys : [ 'a' ],
+				labels : [ 'A' ]
+			});
+
+		}
+	}
+	
 		$(document).ready(function() {
 			pageSetUp();
-			
-			if ($('#best-movie').length) {
-
-				Morris.Bar({
-					element : 'best-movie',
-					data : [ {
-						x : 'some director',
-						y : 4.3,
-						a : 5.4
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 3
-					}, {
-						x : 'some director',
-						a : 4
-					}, {
-						x : 'some director',
-						a : 5
-					}, {
-						x : 'some director',
-						a : 6
-					}, {
-						x : 'some director',
-						a : 7
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 9
-					}, {
-						x : 'some director',
-						a : 2
-					} ],
-					xkey : 'x',
-					ykeys : [ 'a','y' ],
-					labels : [ 'A' ]
-				});
-
-			}
-			
-			if ($('#best-book').length) {
-
-				Morris.Bar({
-					element : 'best-book',
-					data : [ {
-						x : 'some director',
-						a : 1.4
-					}, {
-						x : 'some director',
-						a : 2.2
-					}, {
-						x : 'some director',
-						a : 3
-					}, {
-						x : 'some director',
-						a : 4
-					}, {
-						x : 'some director',
-						a : 5
-					}, {
-						x : 'some director',
-						a : 6
-					}, {
-						x : 'some director',
-						a : 7
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 9
-					}, {
-						x : 'some director',
-						a : 2
-					} ],
-					xkey : 'x',
-					ykeys : [ 'a' ],
-					labels : [ 'A' ]
-				});
-
-			}
-			
-
-			if ($('#best-director').length) {
-
-				Morris.Bar({
-					element : 'best-director',
-					data : [ {
-						x : 'some director',
-						a : 1.4
-					}, {
-						x : 'some director',
-						a : 2.2
-					}, {
-						x : 'some director',
-						a : 3
-					}, {
-						x : 'some director',
-						a : 4
-					}, {
-						x : 'some director',
-						a : 5
-					}, {
-						x : 'some director',
-						a : 6
-					}, {
-						x : 'some director',
-						a : 7
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 9
-					}, {
-						x : 'some director',
-						a : 2
-					} ],
-					xkey : 'x',
-					ykeys : [ 'a' ],
-					labels : [ 'A' ]
-				});
-
-			}
-			
-			if ($('#best-actor').length) {
-
-				Morris.Bar({
-					element : 'best-actor',
-					data : [ {
-						x : 'some director',
-						a : 1.4
-					}, {
-						x : 'some director',
-						a : 2.2
-					}, {
-						x : 'some director',
-						a : 3
-					}, {
-						x : 'some director',
-						a : 4
-					}, {
-						x : 'some director',
-						a : 5
-					}, {
-						x : 'some director',
-						a : 6
-					}, {
-						x : 'some director',
-						a : 7
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 9
-					}, {
-						x : 'some director',
-						a : 2
-					} ],
-					xkey : 'x',
-					ykeys : [ 'a' ],
-					labels : [ 'A' ]
-				});
-
-			}
 		});
 	</script>
 </body>
