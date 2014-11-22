@@ -1,0 +1,8 @@
+.classpath
+.project
+WebContent/WEB-INF
+WebContent/META-INF
+WebContent/img
+WebContent/fonts
+.settings
+build
