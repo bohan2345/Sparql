@@ -34,9 +34,8 @@ public class CrawlData {
 
 		ResultSet results = qexec.execSelect();
 //		OutputStream
-		OutputStream output = null;
 		try {
-			output = new FileOutputStream("/Users/shuaiwang/Documents/eclipse workspace/Sparql/WebContent/data/test1.json");
+			OutputStream output = new FileOutputStream("/Users/shuaiwang/Documents/eclipse workspace/Sparql/WebContent/data/test1.json");
 			ResultSetFormatter.outputAsJSON(output, results);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
