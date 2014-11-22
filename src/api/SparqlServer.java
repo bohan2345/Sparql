@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/SparqlServer")
 public class SparqlServer extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-       
+	static String JSONPATH = "/Users/bohan/Documents/workspace/Sparql/WebContent/data/";
     /**
      * @see HttpServlet#HttpServlet()
      */
@@ -31,9 +31,10 @@ public class SparqlServer extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String x = request.getParameter("ex");
-		String ex1 = new MovieGenreCount().get();
-		PrintWriter out = response.getWriter();
-		out.write(ex1);
+		new MovieGenreCount().get(JSONPATH);
+		response.sendRedirect("index.jsp");
+//		PrintWriter out = response.getWriter();
+//		out.write(ex1);
 	}
 
 	/**
