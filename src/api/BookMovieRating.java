@@ -20,12 +20,14 @@ import com.hp.hpl.jena.rdf.model.ModelFactory;
 public class BookMovieRating {
 	public void get(String path) {
 
-		String sparql = "SELECT ?book ?brating ?movie ?mrating ?author " +
+		String sparql = "SELECT ?mname ?bname ?mrating ?brating  " +
 				"WHERE{" +
 				"?author hw:wrote ?book ." +
 				"?book hw:filmed ?movie ." +
 				"?book hw:bookrating ?brating ." +
 				"?movie hw:imdbrating ?mrating ." +
+				"?movie hw:movie_title ?mname ." +
+				"?book hw:book_title ?bname ." +
 				"FILTER (?brating >=3.5 && ?mrating >=7.5)" +
 				"} " +
 				"ORDER BY DESC(?mrating)";
