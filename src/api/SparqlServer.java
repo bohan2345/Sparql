@@ -34,6 +34,7 @@ public class SparqlServer extends HttpServlet {
 		String x = request.getParameter("ex");
 		new MovieGenreCount().get(JSONPATH);
 		new DirectorWithRating().get(JSONPATH0);
+		new BookMovieRating().get(JSONPATH);
 		response.sendRedirect("index.jsp");
 //		PrintWriter out = response.getWriter();
 //		out.write(ex1);
