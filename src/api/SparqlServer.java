@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/SparqlServer")
 public class SparqlServer extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	static String JSONPATH0 = "/Users/shuaiwang/Documents/eclipse workspace/Sparql/WebContent/data/";
 	static String JSONPATH = "/Users/bohan/Documents/workspace/Sparql/WebContent/data/";
     /**
      * @see HttpServlet#HttpServlet()
@@ -33,6 +34,7 @@ public class SparqlServer extends HttpServlet {
 		System.out.println("get");
 		String x = request.getParameter("ex");
 		new MovieGenreCount().get(JSONPATH);
+		new DirectorWithRating().get(JSONPATH0);
 		new BookMovieRating().get(JSONPATH);
 		response.sendRedirect("example.jsp");
 //		PrintWriter out = response.getWriter();

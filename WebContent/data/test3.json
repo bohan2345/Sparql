@@ -1,0 +1,545 @@
+{
+  "head": {
+    "vars": [ "count" , "director" ]
+  } ,
+  "results": {
+    "bindings": [
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "7" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Martin_Scorsese" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "5" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Steven_Spielberg" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "4" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#David_Fincher" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "4" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Rob_Reiner" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "3" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Alfonso_Cuar%C3%B3n" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "3" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ang_Lee" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "3" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Clint_Eastwood" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "3" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Matthew_Vaughn" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Barry_Levinson" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ben_Affleck" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Danny_Boyle" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#David_Cronenberg" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#David_Yates" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dean_DeBlois" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Doug_Liman" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ethan_Coen" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jason_Reitman" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Joel_Coen" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#John_McTiernan" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Kevin_Costner" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mike_Newell" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Paul_Greengrass" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Paul_Thomas_Anderson" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Paul_Verhoeven" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Peter_Jackson" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ridley_Scott" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Robert_Redford" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ron_Howard" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stephen_Daldry" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stephen_Frears" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "2" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Todd_Field" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Alan_Parker" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Alexander_Payne" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Andrew_Adamson" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Andy_Wachowski" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Anthony_Russo" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Arthur_Rankin_Jr." }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Barry_Cook" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bill_Condon" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bill_Paxton" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bob_Clark" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Brian_De_Palma" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Brian_Percival" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bruce_Beresford" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bruce_McDonald" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bryan_Singer" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Carroll_Ballard" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Chris_Grismer" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Chris_Sanders" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Christopher_Nolan" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dan_Ireland" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Darren_Aronofsky" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#David_Barrett" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#David_O._Russell" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Edward_Zwick" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Fernando_Meirelles" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Francis_Ford_Coppola" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Francis_Lawrence" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Frank_Darabont" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Frank_Miller" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Gabriele_Muccino" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Gary_Sinise" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Gregg_Araki" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Henry_Selick" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#James_Gunn" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#James_Ivory" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jean-Jacques_Annaud" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jeffrey_Friedman" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jessica_Sharzer" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jim_Sheridan" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Joe_Johnston" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Joe_Russo" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Joe_Wright" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#John_Curran" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#John_Musker" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#John_Patrick_Shanley" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#John_Roberts" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jonathan_Demme" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Josh_Boone" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jules_Bass" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Julian_Schnabel" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Kriv_Stenders" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Lana_Wachowski" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Lee_Tamahori" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Liev_Schreiber" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Loveleen_Tandan" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Lynne_Ramsay" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Marc_Forster" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mark_Herman" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Martin_Campbell" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Martin_Rosen" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mary_Harron" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Micha%C3%ABl_R._Roskam" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mira_Nair" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Nick_Cassavetes" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Nicolas_Winding_Refn" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Penny_Marshall" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Phil_Alden_Robinson" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Quentin_Tarantino" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Richard_Eyre" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Richard_LaGravenese" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Rob_Epstein" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Rob_Villano" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Robert_Altman" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Robert_Pulcini" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Robert_Rodriguez" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Robert_Zemeckis" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Roger_Michell" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Roman_Polanski" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ron_Clements" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ronald_F._Maxwell" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Sam_Raimi" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Sean_Penn" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Sergio_Leone" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Shari_Springer_Berman" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Sidney_Lumet" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stanley_Kubrick" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stephen_Chbosky" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Steven_Zaillian" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ted_Demme" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ted_Kotcheff" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Terrence_Malick" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Terry_Gilliam" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Terry_Zwigoff" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Tim_Burton" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Tim_Robbins" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Tim_Roth" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Tom_Tykwer" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Tony_Bancroft" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Tony_Scott" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Vadim_Perelman" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Vicky_Jenson" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Wayne_Wang" }
+      } ,
+      {
+        "count": { "datatype": "http://www.w3.org/2001/XMLSchema#integer" , "type": "typed-literal" , "value": "1" } ,
+        "director": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Zack_Snyder" }
+      }
+    ]
+  }
+}
