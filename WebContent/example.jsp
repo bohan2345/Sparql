@@ -86,7 +86,8 @@
 	src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 <script>
 	if (!window.jQuery.ui) {
-		document.write('<script src="js/libs/jquery-ui-1.10.3.min.js"><\/script>');
+		document
+				.write('<script src="js/libs/jquery-ui-1.10.3.min.js"><\/script>');
 	}
 </script>
 
@@ -139,10 +140,14 @@
 <!-- <script src="js/plugin/morris/raphael.min.js"></script>
 <script src="js/plugin/morris/morris.min.js"></script> -->
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+<link rel="stylesheet"
+	href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script
+	src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script
+	src="http://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
 </head>
 <body>
 	<div>
@@ -270,16 +275,23 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-edit"></i>
 								</span>
-								<h2>Top 10 Movies Sparql Query</h2>
+								<h2>Top 10 Movie genre derived from book Sparql Query</h2>
 							</header>
 							<div>
 								<div class="widget-body no-padding">
 									<form class="smart-form" method="post" action="SparqlServer">
 										<fieldset>
-											<section style="padding-bottom:11px;">
+											<section style="padding-bottom: 11px;">
 												<label class="textarea textarea-resizable"> <textarea
 														rows="11" class="custom-scroll" name="sparql"
-														disabled="disabled"></textarea>
+														disabled="disabled">
+SELECT (COUNT(*) AS ?count) ?genre 
+WHERE{
+?book hw:filmed ?movie .
+?movie hw:movie_genre ?genre .
+} 
+GROUP BY (?genre)
+ORDER BY DESC(?count) </textarea>
 												</label>
 											</section>
 										</fieldset>
@@ -308,7 +320,7 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-bar-chart-o"></i>
 								</span>
-								<h2>Top 10 Moives</h2>
+								<h2>Top 10 Movie genre derived from book</h2>
 
 							</header>
 
@@ -346,16 +358,28 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-edit"></i>
 								</span>
-								<h2>Top 10 Books Sparql Query</h2>
+								<h2>Top 10 Movie rating with corresponding book rating Sparql Query</h2>
 							</header>
 							<div>
 								<div class="widget-body no-padding">
 									<form class="smart-form" method="post" action="SparqlServer">
 										<fieldset>
-											<section style="padding-bottom:11px;">
+											<section style="padding-bottom: 11px;">
 												<label class="textarea textarea-resizable"> <textarea
 														rows="11" class="custom-scroll" name="sparql"
-														disabled="disabled"></textarea>
+														disabled="disabled">
+SELECT ?mname ?bname ?mrating ?brating 
+WHERE{
+?author hw:wrote ?book .
+?book hw:filmed ?movie .
+?book hw:bookrating ?brating .
+?movie hw:imdbrating ?mrating .
+?movie hw:movie_title ?mname .
+?book hw:book_title ?bname .
+FILTER (?brating >=3.5 && ?mrating >=7.5)
+} 
+ORDER BY DESC(?mrating)
+ </textarea>
 												</label>
 											</section>
 										</fieldset>
@@ -385,7 +409,7 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-bar-chart-o"></i>
 								</span>
-								<h2>Top 10 Books</h2>
+								<h2>Top 10 Movie rating with corresponding book rating</h2>
 
 							</header>
 
@@ -402,7 +426,7 @@
 								<!-- widget content -->
 								<div class="widget-body no-padding">
 
-									<div id="top_10_books" class="chart no-padding"></div>
+									<div id="movies_and_books" class="chart no-padding"></div>
 
 								</div>
 								<!-- end widget content -->
@@ -421,16 +445,27 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-edit"></i>
 								</span>
-								<h2>Movie Book Compare</h2>
+								<h2>Number of Movies by director Sparql Query</h2>
 							</header>
 							<div>
 								<div class="widget-body no-padding">
 									<form class="smart-form" method="post" action="SparqlServer">
 										<fieldset>
-											<section style="padding-bottom:11px;">
+											<section style="padding-bottom: 11px;">
 												<label class="textarea textarea-resizable"> <textarea
 														rows="11" class="custom-scroll" name="sparql"
-														disabled="disabled"></textarea>
+														disabled="disabled">
+SELECT (COUNT(*) AS ?count) ?dname
+WHERE{
+?director hw:directed ?movie .
+?book hw:filmed ?movie .
+?movie hw:imdbrating ?rating .
+?director hw:person_name ?dname
+FILTER (?rating >= 7.5)
+} 
+GROUP BY (?dname)
+ORDER BY DESC(?count)
+ </textarea>
 												</label>
 											</section>
 										</fieldset>
@@ -459,7 +494,7 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-bar-chart-o"></i>
 								</span>
-								<h2>Movie Book compare</h2>
+								<h2>Number of Movies by director</h2>
 
 							</header>
 
@@ -476,7 +511,7 @@
 								<!-- widget content -->
 								<div class="widget-body no-padding">
 
-									<div id="movie_book_compare" class="chart no-padding"></div>
+									<div id="movies_by_director" class="chart no-padding"></div>
 
 								</div>
 								<!-- end widget content -->

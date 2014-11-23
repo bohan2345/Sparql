@@ -39,10 +39,13 @@ $.ajax({
 function init() {
 	console.log(window.HW.test1);
 
-	if ($('#top_10_books').length) {
+	if ($('#top_10_movies').length) {
 		var data = window.HW.test1;
+		var data2 = window.HW.test2;
+		var data3 = window.HW.test3;
+		
 		Morris.Bar({
-			element : 'top_10_books',
+			element : 'top_10_movies',
 			data : [ {
 				x : data.results.bindings[0].genre.value,
 				a : data.results.bindings[0].count.value
@@ -76,94 +79,107 @@ function init() {
 			} ],
 			xkey : 'x',
 			ykeys : [ 'a' ],
-			labels : [ 'A' ],
+			labels : [ 'number' ],
 			xLabelAngle: 60
 		});
 
 	}
 
-	if ($('#top_10_movies').length) {
+	if ($('#movies_and_books').length) {
 
 		Morris.Bar({
-			element : 'top_10_movies',
+			element : 'movies_and_books',
 			data : [ {
-				x : 'some director',
-				a : 1.4
+				x : data2.results.bindings[0].mname.value,
+				a : data2.results.bindings[0].mrating.value,
+				b:  data2.results.bindings[0].brating.value
 			}, {
-				x : 'some director',
-				a : 2.2
+				x : data2.results.bindings[1].mname.value,
+				a : data2.results.bindings[1].mrating.value,
+				b:  data2.results.bindings[1].brating.value
 			}, {
-				x : 'some director',
-				a : 3
+				x : data2.results.bindings[2].mname.value,
+				a : data2.results.bindings[2].mrating.value,
+				b:  data2.results.bindings[2].brating.value
 			}, {
-				x : 'some director',
-				a : 4
+				x : data2.results.bindings[3].mname.value,
+				a : data2.results.bindings[3].mrating.value,
+				b:  data2.results.bindings[3].brating.value
 			}, {
-				x : 'some director',
-				a : 5
+				x : data2.results.bindings[4].mname.value,
+				a : data2.results.bindings[4].mrating.value,
+				b:  data2.results.bindings[4].brating.value
 			}, {
-				x : 'some director',
-				a : 6
+				x : data2.results.bindings[5].mname.value,
+				a : data2.results.bindings[5].mrating.value,
+				b:  data2.results.bindings[5].brating.value
 			}, {
-				x : 'some director',
-				a : 7
+				x : data2.results.bindings[6].mname.value,
+				a : data2.results.bindings[6].mrating.value,
+				b:  data2.results.bindings[6].brating.value
 			}, {
-				x : 'some director',
-				a : 8
+				x : data2.results.bindings[7].mname.value,
+				a : data2.results.bindings[7].mrating.value,
+				b:  data2.results.bindings[7].brating.value
 			}, {
-				x : 'some director',
-				a : 9
+				x : data2.results.bindings[8].mname.value,
+				a : data2.results.bindings[8].mrating.value,
+				b:  data2.results.bindings[8].brating.value
 			}, {
-				x : 'some director',
-				a : 2
+				x : data2.results.bindings[9].mname.value,
+				a : data2.results.bindings[9].mrating.value,
+				b:  data2.results.bindings[9].brating.value
 			} ],
 			xkey : 'x',
-			ykeys : [ 'a' ],
-			labels : [ 'A' ],
-			xLabelAngle: 60
+			ykeys : [ 'a' , 'b'],
+			labels : [ 'Movie rating', 'Book rating' ],
+			xLabelAngle: 60,
+			gridTextSize: 5
+			
 		});
 
 	}
 
-	if ($('#moive_book_compare').length) {
+	if ($('#movies_by_director').length) {
 
 		Morris.Bar({
-			element : 'moive_book_compare',
+			element : 'movies_by_director',
 			data : [ {
-				x : 'some director',
-				a : 1.4
+				x : data3.results.bindings[0].dname.value,
+				a : data3.results.bindings[0].count.value
 			}, {
-				x : 'some director',
-				a : 2.2
+				x : data3.results.bindings[1].dname.value,
+				a : data3.results.bindings[1].count.value
 			}, {
-				x : 'some director',
-				a : 3
+				x : data3.results.bindings[2].dname.value,
+				a : data3.results.bindings[2].count.value
 			}, {
-				x : 'some director',
-				a : 4
+				x : data3.results.bindings[3].dname.value,
+				a : data3.results.bindings[3].count.value
 			}, {
-				x : 'some director',
-				a : 5
+				x : data3.results.bindings[4].dname.value,
+				a : data3.results.bindings[4].count.value
 			}, {
-				x : 'some director',
-				a : 6
+				x : data3.results.bindings[5].dname.value,
+				a : data3.results.bindings[5].count.value
 			}, {
-				x : 'some director',
-				a : 7
+				x : data3.results.bindings[6].dname.value,
+				a : data3.results.bindings[6].count.value
 			}, {
-				x : 'some director',
-				a : 8
+				x : data3.results.bindings[7].dname.value,
+				a : data3.results.bindings[7].count.value
 			}, {
-				x : 'some director',
-				a : 9
+				x : data3.results.bindings[8].dname.value,
+				a : data3.results.bindings[8].count.value
 			}, {
-				x : 'some director',
-				a : 2
+				x : data3.results.bindings[9].dname.value,
+				a : data3.results.bindings[9].count.value
 			} ],
 			xkey : 'x',
 			ykeys : [ 'a' ],
-			labels : [ 'A' ],
-			xLabelAngle: 60
+			labels : [ 'Number of Movies' ],
+			xLabelAngle: 60,
+			gridTextSize: 5,
 		});
 
 	}

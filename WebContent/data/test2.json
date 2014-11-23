@@ -1,925 +1,794 @@
 {
   "head": {
-    "vars": [ "book" , "brating" , "movie" , "mrating" , "author" ]
+    "vars": [ "mname" , "bname" , "mrating" , "brating" ]
   } ,
   "results": {
     "bindings": [
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_True_Meaning_of_Smekday(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Home(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Home" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The True Meaning of Smekday" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "9.2" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Adam_Rex" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Fight_Club(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Fight_Club(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Fight Club" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Fight Club" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.9" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Chuck_Palahniuk" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Forrest_Gump(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Forrest_Gump(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Forrest Gump" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Forrest Gump" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Winston_Groom" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Wiseguy%3A_Life_in_a_Mafia_Family(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#GoodFellas(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "GoodFellas" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Wiseguy: Life in a Mafia Family" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Nicholas_Pileggi" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Silence_of_the_Lambs(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Silence_of_the_Lambs(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Silence of the Lambs" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Silence of the Lambs" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Thomas_Harris" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Green_Mile(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Green_Mile(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Green Mile" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Green Mile" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stephen_King" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Shining(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Shining(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Shining" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Shining" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stephen_King" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Pianist(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Pianist(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Pianist" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Pianist" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Wladyslow_Szpilman" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Hoods(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Once_Upon_a_Time_in_America(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Once Upon a Time in America" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Hoods" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.4" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Harry_Grey" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Requiem_for_a_Dream(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Requiem_for_a_Dream(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Requiem for a Dream" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Requiem for a Dream" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.4" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Hubert_Selby" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Requiem_for_a_Dream(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Requiem_for_a_Dream(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Requiem for a Dream" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Requiem for a Dream" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.4" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jr." }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Raging_Bull(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Raging_Bull(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Raging Bull" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Raging Bull" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.3" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jake_La_Motta" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Nothing_Lasts_Forever(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Die_Hard(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Die Hard" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Nothing Lasts Forever" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.3" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Roderick_Thorp" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#No_Country_For_Old_Men(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#No_Country_For_Old_Men(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "No Country For Old Men" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "No Country For Old Men" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.2" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Cormac_McCarthy" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#How_to_Train_Your_Dragon(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#How_to_Train_Your_Dragon(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "How to Train Your Dragon" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "How to Train Your Dragon" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.2" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Cressida_Cowell" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Trainspotting(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Trainspotting(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Trainspotting" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Trainspotting" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.2" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Irvine_Welsh" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Into_the_Wild(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Into_the_Wild(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Into the Wild" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Into the Wild" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.2" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jon_Krakauer" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Do_Androids_Dream_of_Electric_Sheep%3F(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Blade_Runner(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Blade Runner" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Do Androids Dream of Electric Sheep?" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.2" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Philip_K._Dick" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#A_Beautiful_Mind(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#A_Beautiful_Mind(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "A Beautiful Mind" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "A Beautiful Mind" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.2" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Sylvia_Nasar" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Princess_Bride(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Princess_Bride(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Princess Bride" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Princess Bride" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.2" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#William_Goldman" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#How_to_Train_Your_Dragon(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#How_to_Train_Your_Dragon_2(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "How to Train Your Dragon 2" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "How to Train Your Dragon" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.1" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Cressida_Cowell" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Shutter_Island(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Shutter_Island(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Shutter Island" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Shutter Island" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.1" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dennis_Lehane" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Harry_Potter_and_the_Deathly_Hallows(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Harry_Potter_and_the_Deathly_Hallows:_Part_2(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Harry Potter and the Deathly Hallows: Part 2" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Harry Potter and the Deathly Hallows" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.1" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#J._K._Rowling" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Diving_Bell_and_the_Butterfly(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Diving_Bell_and_the_Butterfly(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Diving Bell and the Butterfly" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Diving Bell and the Butterfly" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.1" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jean-Dominique_Bauby" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#All_Others_Pay_Cash_In_God_We_Trust(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#A_Christmas_Story(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "A Christmas Story" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "All Others Pay Cash In God We Trust" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.1" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jean_Shepherd" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Fault_in_Our_Stars(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Fault_in_Our_Stars(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Fault in Our Stars" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Fault in Our Stars" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.1" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#John_Green" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Perks_of_Being_a_Wallflower(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Perks_of_Being_a_Wallflower(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Perks of Being a Wallflower" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Perks of Being a Wallflower" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.1" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stephen_Chbosky" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_%28story%29_Body(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stand_By_Me(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Stand By Me" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The (story) Body" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.1" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stephen_King" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Once_Were_Warriors(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Once_Were_Warriors(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Once Were Warriors" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Once Were Warriors" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Alan_Duff" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mystic_River(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mystic_River(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Mystic River" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Mystic River" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dennis_Lehane" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Diamonds_to_Dust%3A_The_life_and_death_of_Jayne_Mansfield(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "5.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Diamonds_to_Dust(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Diamonds to Dust" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Diamonds to Dust: The life and death of Jayne Mansfield" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Frank_Ferruccio" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "5.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Casino_Royale(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Casino_Royale(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Casino Royale" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Casino Royale" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ian_Fleming" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#or_Hobbit(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Hobbit:_An_unexpected_journey(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Hobbit: An unexpected journey" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "or Hobbit" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#J._R._R._Tolkien" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#or_Hobbit(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Hobbit:_The_desolation_of_Smaug(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Hobbit: The desolation of Smaug" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "or Hobbit" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#J._R._R._Tolkien" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dances_with_Wolves(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dances_with_Wolves(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Dances with Wolves" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Dances with Wolves" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Michael_Blake" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jurassic_Park(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jurassic_Park(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Jurassic Park" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Jurassic Park" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Michael_Crichton" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Notebook(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Notebook(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Notebook" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Notebook" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Nicholas_Sparks" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#One_Gallant_Rush(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Glory(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Glory" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "One Gallant Rush" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Richard_Burchard" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Aladdin_%28story%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Aladdin(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Aladdin" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Aladdin (story)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Roger_Allers" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Q_%26_A(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Slumdog_Millionaire(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Slumdog Millionaire" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Q & A" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Vikas_Swarup" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Life_of_Pi(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Life_of_Pi(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Life of Pi" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Life of Pi" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "8.0" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Yann_Martel" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Pursuit_of_Happyness(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Pursuit_of_Happyness(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Pursuit of Happyness" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Pursuit of Happyness" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.9" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Chris_Gardner" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Captain_America_%28comic%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Captain_America:_The_winter_soldier(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Captain America: The winter soldier" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Captain America (comic)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.9" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Joe_Simon" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ordinary_People(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ordinary_People(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Ordinary People" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Ordinary People" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.9" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Judith_Guest" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Silver_Linings_Playbook(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Silver_Linings_Playbook(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Silver Linings Playbook" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Silver Linings Playbook" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.9" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Matthew_Quick" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Flight_of_Dragons(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Flight_of_Dragons(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Flight of Dragons" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Flight of Dragons" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.9" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Peter_Dickinson" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Plague_Dogs(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Plague_Dogs(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Plague Dogs" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Plague Dogs" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.9" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Richard_Adams" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Bourne_Identity(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Bourne_Identity(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Bourne Identity" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Bourne Identity" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.9" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Robert_Ludlum" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jr._Nightmare_of_Ecstasy%3A_The_Life_and_Art_of_Edward_D._Wood(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ed_Wood(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Ed Wood" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Jr. Nightmare of Ecstasy: The Life and Art of Edward D. Wood" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.9" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Rudolph_Grey" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Man_on_Fire(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Man_on_Fire(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Man on Fire" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Man on Fire" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#A._J._Quinnell" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Color_Purple(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Color_Purple(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Color Purple" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Color Purple" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Alice_Walker" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Verdict(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "5.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Verdict(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Verdict" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Verdict" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Barry_Reed" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "5.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Animal_Rescue_%28story%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Drop(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Drop" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Animal Rescue (story)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dennis_Lehane" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Maurice(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Maurice(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Maurice" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Maurice" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#E._M._Forster" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Killshot(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Killshot(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Killshot" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Killshot" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Elmore_Leonard" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Rocket_Boys%3A_A_Memoir(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#October_Sky(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "October Sky" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Rocket Boys: A Memoir" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Homer_H._Hickam" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Atonement(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Atonement(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Atonement" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Atonement" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ian_McEwan" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Harry_Potter_and_the_Prisoner_of_Azkaban(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Harry_Potter_and_the_Prisoner_of_Azkaban(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Harry Potter and the Prisoner of Azkaban" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Harry Potter and the Prisoner of Azkaban" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#J._K._Rowling" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Drive(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Drive(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Drive" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Drive" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#James_Sallis" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Boy_in_the_Striped_Pajamas(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Boy_in_the_Striped_Pajamas(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Boy in the Striped Pajamas" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Boy in the Striped Pajamas" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#John_Boyne" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Donnie_Brasco%3A_My_Undercover_Life_in_the_Mafia(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Donnie_Brasco(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Donnie Brasco" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Donnie Brasco: My Undercover Life in the Mafia" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Joseph_D._Pistone" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Kick-Ass_%28comic%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Kick-Ass(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Kick-Ass" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Kick-Ass (comic)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mark_Millar" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stardust(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stardust(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Stardust" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Stardust" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Neil_Gaiman" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Misery(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Misery(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Misery" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Misery" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Stephen_King" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Name_of_the_Rose(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Name_of_the_Rose(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Name of the Rose" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Name of the Rose" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.8" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Umberto_Eco" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Brokeback_Mountain(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Brokeback_Mountain(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Brokeback Mountain" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Brokeback Mountain" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Annie_Proulx" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#True_Grit(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#True_Grit(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "True Grit" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "True Grit" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Charles_Portis" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#First_Blood(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#First_Blood(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "First Blood" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "First Blood" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#David_Morrell" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Baby_Gone(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Gone_Baby_Gone(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Gone Baby Gone" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Baby Gone" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dennis_Lehane" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mrs._Palfrey_at_the_Claremont(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mrs._Palfrey_at_the_Claremont(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Mrs. Palfrey at the Claremont" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Mrs. Palfrey at the Claremont" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Elizabeth_Taylor" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#A_Little_Princess(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#A_Little_Princess(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "A Little Princess" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "A Little Princess" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Frances_Burnett" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Fear_and_Loathing_in_Las_Vegas%3A_A_Savage_Journey_to_the_Heart_of_the_American_Dream(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Fear_and_Loathing_in_Las_Vegas(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Fear and Loathing in Las Vegas" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Hunter_S._Thompson" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Persuasion(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Persuasion(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Persuasion" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Persuasion" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jane_Austen" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Black_Hawk_Down%3A_A_Story_of_Modern_War(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Black_Hawk_Down(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Black Hawk Down" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Black Hawk Down: A Story of Modern War" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mark_Bowden" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Lost_child_of_Philomena_Lee(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Philomena(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Philomena" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Lost child of Philomena Lee" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Martin_Sixsmith" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Killer_Angels(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Gettysburg(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Gettysburg" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Killer Angels" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Michael_Shaara" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Player(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Player(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Player" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Player" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Michael_Tolkin" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Coraline(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Coraline(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Coraline" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Coraline" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Neil_Gaiman" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Awakenings(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Awakenings(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Awakenings" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Awakenings" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Oliver_Sachs" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#FrostNixon_%28play%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Frost/Nixon(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Frost/Nixon" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "FrostNixon (play)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Peter_Morgan" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Minority_Report_%28story%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Minority_Report(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Minority Report" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Minority Report (story)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Philip_K._Dick" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mysterious_Skin(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mysterious_Skin(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Mysterious Skin" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Mysterious Skin" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Scott_Heim" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Catching_Fire(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Hunger_Games:_Catching_Fire(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Hunger Games: Catching Fire" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Catching Fire" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Suzanne_Collins" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The%3A_Homosexuality_in_the_Movies_Celluloid_Closet(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Celluloid_Closet(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Celluloid Closet" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The: Homosexuality in the Movies Celluloid Closet" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Vito_Russo" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Flipped(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Flipped(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Flipped" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Flipped" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.7" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Wendelin_Van_Draanen" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Joy_Luck_Club(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Joy_Luck_Club(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Joy Luck Club" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Joy Luck Club" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Amy_Tan" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#House_of_Sand_and_Fog(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#House_of_Sand_and_Fog(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "House of Sand and Fog" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "House of Sand and Fog" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Andre_Dubus" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Natural(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Natural(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Natural" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Natural" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bernard_Malamud" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Der_Vorleser(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Reader(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Reader" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Der Vorleser" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bernhard_Schlink" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#American_Psycho(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#American_Psycho(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "American Psycho" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "American Psycho" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bret_Easton_Ellis" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Invention_of_Hugo_Cabret(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Hugo(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Hugo" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Invention of Hugo Cabret" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Brian_Selznick" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Thank_You_for_Smoking(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Thank_You_for_Smoking(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Thank You for Smoking" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Thank You for Smoking" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Christopher_Buckley" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Prince_of_Thieves(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Town(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Town" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Prince of Thieves" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Chuck_Hogan" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Watchmen(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Watchmen(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Watchmen" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Watchmen" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dave_Gibbons" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Cloud_Atlas%3A_A_novel(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Cloud_Atlas(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Cloud Atlas" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Cloud Atlas: A novel" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#David_Mitchell" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Never_Cry_Wolf(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Never_Cry_Wolf(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Never Cry Wolf" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Never Cry Wolf" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Farley_Mowat" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Searching_for_Bobby_Fischer(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Searching_for_Bobby_Fischer(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Searching for Bobby Fischer" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Searching for Bobby Fischer" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Fred_Waitzkin" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Vengeance%3A_The_True_Story_of_an_Israeli_Counter-Terrorist_Team(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Munich(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Munich" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Vengeance: The True Story of an Israeli Counter-Terrorist Team" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#George_Jonas" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dead_Man_Walking%3A_An_Eyewitness_Account_of_the_Death_Penalty_in_the_United_States(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dead_Man_Walking(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Dead Man Walking" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Dead Man Walking: An Eyewitness Account of the Death Penalty in the United States" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Helen_Prejean" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Harry_Potter_and_the_Goblet_of_Fire(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Harry_Potter_and_the_Goblet_of_Fire(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Harry Potter and the Goblet of Fire" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Harry Potter and the Goblet of Fire" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#J._K._Rowling" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Thin_Red_Line(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Thin_Red_Line(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Thin Red Line" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Thin Red Line" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#James_Jones" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Namesake(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Namesake(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Namesake" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Namesake" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jhumpa_Lahiri" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Of_Mice_and_Men(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Of_Mice_and_Men(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Of Mice and Men" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Of Mice and Men" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#John_Steinbeck" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Kite_Runner(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Kite_Runner(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Kite Runner" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Kite Runner" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Khaled_Hosseini" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Book_Thief(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Book_Thief(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Book Thief" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Book Thief" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mark_Zusak" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Hours(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Hours(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Hours" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Hours" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Michael_Cunningham" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#High_Fidelity(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#High_Fidelity(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "High Fidelity" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "High Fidelity" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Nick_Hornby" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Sideways(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Sideways(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Sideways" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Sideways" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Rex_Pickett" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Hunt_for_Red_October(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Hunt_for_Red_October(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Hunt for Red October" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Hunt for Red October" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Tom_Clancy" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Little_Children(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Little_Children(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Little Children" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Little Children" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.6" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Tom_Perrotta" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Killings_%28story%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#In_the_Bedroom(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "In the Bedroom" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Killings (story)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Andre_Dubus" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dracula(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Dracula(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Dracula" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Dracula" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Bram_Stoker" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Father_of_Frankenstein(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Gods_and_Monsters(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Gods and Monsters" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Father of Frankenstein" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Christopher_Bram" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ghost_World(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Ghost_World(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Ghost World" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Ghost World" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Daniel_Clowes" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Freedom_Writers_Diary(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Freedom_Writers(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Freedom Writers" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Freedom Writers Diary" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Erin_Gruwell" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Harry_Potter_and_the_Half-Blood_Prince(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Harry_Potter_and_the_Half-Blood_Prince(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Harry Potter and the Half-Blood Prince" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Harry Potter and the Half-Blood Prince" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#J._K._Rowling" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Doubt_%28play%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Doubt(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Doubt" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Doubt (play)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#John_Patrick_Shanley" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Everything_Is_Illuminated(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Everything_Is_Illuminated(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Everything Is Illuminated" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Everything Is Illuminated" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Jonathan_Safran_Foer" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Speak(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Speak(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Speak" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Speak" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Laurie_Halse_Anderson" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#We_Need_to_Talk_About_Kevin%3A_A_Novel(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#We_Need_to_Talk_About_Kevin(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "We Need to Talk About Kevin" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "We Need to Talk About Kevin: A Novel" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Lionel_Shriver" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Sleepers(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Sleepers(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Sleepers" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Sleepers" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Lorenzo_Carcaterra" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Red_Dog(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Red_Dog(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Red Dog" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Red Dog" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Louis_De_Berni%C3%A8res" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The%3A_Harry_Vardon_Greatest_Game_Ever_Played(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Greatest_Game_Ever_Played(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Greatest Game Ever Played" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The: Harry Vardon Greatest Game Ever Played" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mark_Frost" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#We_Can_Remember_It_For_You_Wholesale_%28story%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Total_Recall(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Total Recall" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "We Can Remember It For You Wholesale (story)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Philip_K._Dick" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#We_Can_Remember_It_for_You_Wholesale_%28story%29(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Total_Recall(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Total Recall" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "We Can Remember It for You Wholesale (story)" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Philip_K._Dick" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Remembering_America%3A_A_Voice_From_the_Sixties(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Quiz_Show(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Quiz Show" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Remembering America: A Voice From the Sixties" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Richard_N._Goodwin" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Fa_Mulan%3A_The_Story_of_a_Woman_Warrior(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Mulan(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Mulan" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "Fa Mulan: The Story of a Woman Warrior" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Robert_D._San_Souci" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Bridges_of_Madison_County(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Bridges_of_Madison_County(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Bridges of Madison County" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Bridges of Madison County" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Robert_James_Waller" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Commitments(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Commitments(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Commitments" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Commitments" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Roddy_Doyle" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#A_Simple_Plan(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#A_Simple_Plan(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "A Simple Plan" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "A Simple Plan" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#Scott_Smith" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "3.5" }
       } ,
       {
-        "book": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Painted_Veil(book)" } ,
-        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" } ,
-        "movie": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#The_Painted_Veil(film)" } ,
+        "mname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Painted Veil" } ,
+        "bname": { "datatype": "http://www.w3.org/2001/XMLSchema#string" , "type": "typed-literal" , "value": "The Painted Veil" } ,
         "mrating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "7.5" } ,
-        "author": { "type": "uri" , "value": "http://www.semanticweb.org/bohan/ontologies/2014/9/hw#W._Somerset_Maugham" }
+        "brating": { "datatype": "http://www.w3.org/2001/XMLSchema#double" , "type": "typed-literal" , "value": "4.0" }
       }
     ]
   }

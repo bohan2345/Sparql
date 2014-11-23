@@ -22,13 +22,14 @@ public class DirectorWithRating {
 	
 	public void get(String path) {
 
-		String sparql = "SELECT (COUNT(*) AS ?count) ?director " +
+		String sparql = "SELECT (COUNT(*) AS ?count) ?dname " +
 				"WHERE{" +
 				"?director hw:directed ?movie ." +
 				"?book hw:filmed ?movie ." +
 				"?movie hw:imdbrating ?rating ." +
+				"?director hw:person_name ?dname ." +
 				"FILTER (?rating >= 7.5)}" +
-				"GROUP BY (?director)" +
+				"GROUP BY (?dname)" +
 				"ORDER BY DESC(?count) ";
 
 		OntModel model1 = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM_MICRO_RULE_INF);
