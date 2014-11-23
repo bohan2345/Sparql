@@ -76,7 +76,8 @@ function init() {
 			} ],
 			xkey : 'x',
 			ykeys : [ 'a' ],
-			labels : [ 'A' ]
+			labels : [ 'A' ],
+			xLabelAngle: 60
 		});
 
 	}
@@ -84,7 +85,7 @@ function init() {
 	if ($('#top_10_movies').length) {
 
 		Morris.Bar({
-			element : 'top_10_movies-book',
+			element : 'top_10_movies',
 			data : [ {
 				x : 'some director',
 				a : 1.4
@@ -118,7 +119,8 @@ function init() {
 			} ],
 			xkey : 'x',
 			ykeys : [ 'a' ],
-			labels : [ 'A' ]
+			labels : [ 'A' ],
+			xLabelAngle: 60
 		});
 
 	}
@@ -160,11 +162,11 @@ function init() {
 			} ],
 			xkey : 'x',
 			ykeys : [ 'a' ],
-			labels : [ 'A' ]
+			labels : [ 'A' ],
+			xLabelAngle: 60
 		});
 
 	}
-
 
 }
 
