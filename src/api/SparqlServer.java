@@ -33,9 +33,9 @@ public class SparqlServer extends HttpServlet {
 		// TODO Auto-generated method stub
 		System.out.println("get");
 		String x = request.getParameter("ex");
-		new MovieGenreCount().get(JSONPATH);
+		new MovieGenreCount().get(JSONPATH0);
 		new DirectorWithRating().get(JSONPATH0);
-		new BookMovieRating().get(JSONPATH);
+		new BookMovieRating().get(JSONPATH0);
 		response.sendRedirect("example.jsp");
 //		PrintWriter out = response.getWriter();
 //		out.write(ex1);

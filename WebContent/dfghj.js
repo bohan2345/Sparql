@@ -6,7 +6,7 @@ $.ajax({
 	success : function(data) {
 		window.HW.test1 = data;
 		window.HW.flag++;
-		if (flag == 3) {
+		if (window.HW.flag == 3) {
 			init();
 		}
 	}
@@ -18,7 +18,7 @@ $.ajax({
 	success : function(data) {
 		window.HW.test2 = data;
 		window.HW.flag++;
-		if (flag == 3) {
+		if (window.HW.flag == 3) {
 			init();
 		}
 	}
@@ -30,7 +30,7 @@ $.ajax({
 	success : function(data) {
 		window.HW.test3 = data;
 		window.HW.flag++;
-		if (flag == 3) {
+		if (window.HW.flag == 3) {
 			init();
 		}
 	}
@@ -39,10 +39,10 @@ $.ajax({
 function init() {
 	console.log(window.HW.test1);
 
-	if ($('#director_movie_count').length) {
+	if ($('#top_10_books').length) {
 		var data = window.HW.test1;
 		Morris.Bar({
-			element : 'director_movie_count',
+			element : 'top_10_books',
 			data : [ {
 				x : data.results.bindings[0].genre.value,
 				a : data.results.bindings[0].count.value
@@ -81,10 +81,10 @@ function init() {
 
 	}
 
-	if ($('#director_movie_count').length) {
+	if ($('#top_10_movies').length) {
 
 		Morris.Bar({
-			element : 'best-book',
+			element : 'top_10_movies-book',
 			data : [ {
 				x : 'some director',
 				a : 1.4
@@ -123,10 +123,10 @@ function init() {
 
 	}
 
-	if ($('#best-director').length) {
+	if ($('#moive_book_compare').length) {
 
 		Morris.Bar({
-			element : 'best-director',
+			element : 'moive_book_compare',
 			data : [ {
 				x : 'some director',
 				a : 1.4
@@ -165,47 +165,7 @@ function init() {
 
 	}
 
-	if ($('#best-actor').length) {
 
-		Morris.Bar({
-			element : 'best-actor',
-			data : [ {
-				x : 'some director',
-				a : 1.4
-			}, {
-				x : 'some director',
-				a : 2.2
-			}, {
-				x : 'some director',
-				a : 3
-			}, {
-				x : 'some director',
-				a : 4
-			}, {
-				x : 'some director',
-				a : 5
-			}, {
-				x : 'some director',
-				a : 6
-			}, {
-				x : 'some director',
-				a : 7
-			}, {
-				x : 'some director',
-				a : 8
-			}, {
-				x : 'some director',
-				a : 9
-			}, {
-				x : 'some director',
-				a : 2
-			} ],
-			xkey : 'x',
-			ykeys : [ 'a' ],
-			labels : [ 'A' ]
-		});
-
-	}
 }
 
 $(document).ready(function() {
