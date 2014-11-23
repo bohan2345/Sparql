@@ -30,10 +30,11 @@ public class SparqlServer extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("get");
 		String x = request.getParameter("ex");
 		new MovieGenreCount().get(JSONPATH);
 		new BookMovieRating().get(JSONPATH);
-		response.sendRedirect("index.jsp");
+		response.sendRedirect("example.jsp");
 //		PrintWriter out = response.getWriter();
 //		out.write(ex1);
 	}
@@ -43,6 +44,7 @@ public class SparqlServer extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		System.out.println("post");
 		response.addHeader("Access-Control-Allow-Origin", "*");
 		response.addHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
 		PrintWriter out = response.getWriter();

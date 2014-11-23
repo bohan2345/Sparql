@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF8"
-	pageEncoding="UTF8"%><!DOCTYPE html>
+	pageEncoding="UTF8"%>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -8,7 +9,7 @@
        Remove this if you use the .htaccess -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-<title>SPARQL</title>
+<title>SAMPLE</title>
 <meta name="description" content="">
 <meta name="author" content="Bohan Zheng">
 
@@ -247,10 +248,10 @@
 				-->
 
 				<ul>
-					<li><a href="index.jsp"><i
+					<li class="active"><a href="index.jsp"><i
 							class="fa fa-lg fa-fw fa-bar-chart-o"></i> <span
 							class="menu-item-parent">Sample</span></a></li>
-					<li class="active"><a href="sparql.jsp"><i
+					<li><a href="sparql.jsp"><i
 							class="fa fa-lg fa-fw fa-table"></i> <span
 							class="menu-item-parent">Sparql</span></a></li>
 				</ul>
@@ -258,108 +259,416 @@
 		</aside>
 		<div id="main" role="main">
 			<div id="content">
-
-				<section id="widget-grid">
-					<div class="row">
-						<article class="col-sm-10 col-md-10 col-lg-10">
-							<div class="jarviswidget" id="wid-id-0">
-								<header>
-									<span class="widget-icon"> <i class="fa fa-edit"></i>
-									</span><h2>Sparql Query</h2>
-								</header>
-								<div>
-									<div class="widget-body no-padding">
-										<form class="smart-form" method="post" action="SparqlServer">
-											<fieldset>
-												<section>
-													<label class="textarea textarea-resizable"> <textarea
-															rows="9" class="custom-scroll" name="sparql"></textarea>
-													</label>
-												</section>
-												<section>
-													<label class="btn"><input type="submit"/></label>
-												</section>
-											</fieldset>
-										</form>
-									</div>
+				<div class="row">
+					<article class="col-sm-6 col-md-6 col-lg-6">
+						<div class="jarviswidget" id="wid-id-0">
+							<header>
+								<span class="widget-icon"> <i class="fa fa-edit"></i>
+								</span>
+								<h2>Top 10 Movies Sparql Query</h2>
+							</header>
+							<div>
+								<div class="widget-body no-padding">
+									<form class="smart-form" method="post" action="SparqlServer">
+										<fieldset>
+											<section style="padding-bottom:11px;">
+												<label class="textarea textarea-resizable"> <textarea
+														rows="11" class="custom-scroll" name="sparql"
+														disabled="disabled"></textarea>
+												</label>
+											</section>
+										</fieldset>
+									</form>
 								</div>
 							</div>
-						</article>
-					</div>
-					<div class="row">
-						<article class="col-sm-10 col-md-10 col-lg-10">
-							<div class="jarviswidget" id="wid-id-2">
-								<header>
-									<span class="widget-icon"> <i class="fa fa-table"></i>
-									</span>
-									<h2>Results</h2>
+						</div>
+					</article>
+					<!-- NEW WIDGET START -->
+					<article class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="jarviswidget" id="wid-id-1"
+							data-widget-editbutton="false">
+							<!-- widget options:
+								usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
 
-								</header>
-								<div>
-									<div class="widget-body">
+								data-widget-colorbutton="false"
+								data-widget-editbutton="false"
+								data-widget-togglebutton="false"
+								data-widget-deletebutton="false"
+								data-widget-fullscreenbutton="false"
+								data-widget-custombutton="false"
+								data-widget-collapsed="true"
+								data-widget-sortable="false"
 
-										<div class="table-responsive">
-											<table class="table table-bordered">
-												<thead>
-													<tr>
-														<th>Moive</th>
-														<th>Column name</th>
-														<th>Column name</th>
-														<th>Column name</th>
-													</tr>
-												</thead>
-												<tbody>
-													<tr>
-														<td>Row 1</td>
-														<td>Row 2</td>
-														<td>Row 3</td>
-														<td>Row 4</td>
-													</tr>
-													<tr>
-														<td>Row 1</td>
-														<td>Row 2</td>
-														<td>Row 3</td>
-														<td>Row 4</td>
-													</tr>
-													<tr>
-														<td>Row 1</td>
-														<td>Row 2</td>
-														<td>Row 3</td>
-														<td>Row 4</td>
-													</tr>
-													<tr>
-														<td>Row 1</td>
-														<td>Row 2</td>
-														<td>Row 3</td>
-														<td>Row 4</td>
-													</tr>
-													<tr>
-														<td>Row 1</td>
-														<td>Row 2</td>
-														<td>Row 3</td>
-														<td>Row 4</td>
-													</tr>
-													<tr>
-														<td>Row 1</td>
-														<td>Row 2</td>
-														<td>Row 3</td>
-														<td>Row 4</td>
-													</tr>
-												</tbody>
-											</table>
+								-->
+							<header>
+								<span class="widget-icon"> <i class="fa fa-bar-chart-o"></i>
+								</span>
+								<h2>Top 10 Moives</h2>
 
-										</div>
-									</div>
+							</header>
+
+							<!-- widget div-->
+							<div>
+
+								<!-- widget edit box -->
+								<div class="jarviswidget-editbox">
+									<!-- This area used as dropdown edit box -->
+
 								</div>
+								<!-- end widget edit box -->
+
+								<!-- widget content -->
+								<div class="widget-body no-padding">
+
+									<div id="best-movie" class="chart no-padding"></div>
+
+								</div>
+								<!-- end widget content -->
 
 							</div>
-						</article>
-					</div>
-				</section>
+							<!-- end widget div -->
+
+						</div>
+					</article>
+
+				</div>
+
+				<div class="row">
+
+					<!-- NEW WIDGET START -->
+					<article class="col-sm-6 col-md-6 col-lg-6">
+						<div class="jarviswidget" id="wid-id-0">
+							<header>
+								<span class="widget-icon"> <i class="fa fa-edit"></i>
+								</span>
+								<h2>Top 10 Movies Sparql Query</h2>
+							</header>
+							<div>
+								<div class="widget-body no-padding">
+									<form class="smart-form" method="post" action="SparqlServer">
+										<fieldset>
+											<section style="padding-bottom:11px;">
+												<label class="textarea textarea-resizable"> <textarea
+														rows="11" class="custom-scroll" name="sparql"
+														disabled="disabled"></textarea>
+												</label>
+											</section>
+										</fieldset>
+									</form>
+								</div>
+							</div>
+						</div>
+					</article>
+
+					<!-- NEW WIDGET START -->
+					<article class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="jarviswidget" id="wid-id-4"
+							data-widget-editbutton="false">
+							<!-- widget options:
+								usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+
+								data-widget-colorbutton="false"
+								data-widget-editbutton="false"
+								data-widget-togglebutton="false"
+								data-widget-deletebutton="false"
+								data-widget-fullscreenbutton="false"
+								data-widget-custombutton="false"
+								data-widget-collapsed="true"
+								data-widget-sortable="false"
+
+								-->
+							<header>
+								<span class="widget-icon"> <i class="fa fa-bar-chart-o"></i>
+								</span>
+								<h2>Top 10 Actors/Actresses</h2>
+
+							</header>
+
+							<!-- widget div-->
+							<div>
+
+								<!-- widget edit box -->
+								<div class="jarviswidget-editbox">
+									<!-- This area used as dropdown edit box -->
+
+								</div>
+								<!-- end widget edit box -->
+
+								<!-- widget content -->
+								<div class="widget-body no-padding">
+
+									<div id="best-actor" class="chart no-padding"></div>
+
+								</div>
+								<!-- end widget content -->
+
+							</div>
+							<!-- end widget div -->
+
+						</div>
+					</article>
+
+				</div>
+
+				<div class="row">
+					<article class="col-sm-6 col-md-6 col-lg-6">
+						<div class="jarviswidget" id="wid-id-0">
+							<header>
+								<span class="widget-icon"> <i class="fa fa-edit"></i>
+								</span>
+								<h2>Top 10 Movies Sparql Query</h2>
+							</header>
+							<div>
+								<div class="widget-body no-padding">
+									<form class="smart-form" method="post" action="SparqlServer">
+										<fieldset>
+											<section style="padding-bottom:11px;">
+												<label class="textarea textarea-resizable"> <textarea
+														rows="11" class="custom-scroll" name="sparql"
+														disabled="disabled"></textarea>
+												</label>
+											</section>
+										</fieldset>
+									</form>
+								</div>
+							</div>
+						</div>
+					</article>
+					<!-- NEW WIDGET START -->
+					<article class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+						<div class="jarviswidget" id="wid-id-2"
+							data-widget-editbutton="false">
+							<!-- widget options:
+								usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+
+								data-widget-colorbutton="false"
+								data-widget-editbutton="false"
+								data-widget-togglebutton="false"
+								data-widget-deletebutton="false"
+								data-widget-fullscreenbutton="false"
+								data-widget-custombutton="false"
+								data-widget-collapsed="true"
+								data-widget-sortable="false"
+
+								-->
+							<header>
+								<span class="widget-icon"> <i class="fa fa-bar-chart-o"></i>
+								</span>
+								<h2>Top 10 Books</h2>
+
+							</header>
+
+							<!-- widget div-->
+							<div>
+
+								<!-- widget edit box -->
+								<div class="jarviswidget-editbox">
+									<!-- This area used as dropdown edit box -->
+
+								</div>
+								<!-- end widget edit box -->
+
+								<!-- widget content -->
+								<div class="widget-body no-padding">
+
+									<div id="best-book" class="chart no-padding"></div>
+
+								</div>
+								<!-- end widget content -->
+
+							</div>
+							<!-- end widget div -->
+
+						</div>
+					</article>
+				</div>
 			</div>
 		</div>
 	</div>
+
 	<script type="text/javascript">
+		window.HW = {};
+		$.ajax({
+			url : "http://localhost:8080/Sparql/data/test1.json",
+			contentType : "application/json",
+			success : function(data) {
+				window.HW.test1 = data;
+				init();
+			}
+		});
+
+		function init() {
+			console.log(window.HW.test1);
+			if ($('#best-movie').length) {
+
+				Morris.Bar({
+					element : 'best-movie',
+					data : [ {
+						x : 'some director',
+						y : 4.3,
+						a : 5.4
+					}, {
+						x : 'some director',
+						a : 8
+					}, {
+						x : 'some director',
+						a : 3
+					}, {
+						x : 'some director',
+						a : 4
+					}, {
+						x : 'some director',
+						a : 5
+					}, {
+						x : 'some director',
+						a : 6
+					}, {
+						x : 'some director',
+						a : 7
+					}, {
+						x : 'some director',
+						a : 8
+					}, {
+						x : 'some director',
+						a : 9
+					}, {
+						x : 'some director',
+						a : 2
+					} ],
+					xkey : 'x',
+					ykeys : [ 'a', 'y' ],
+					labels : [ 'A' ]
+				});
+
+			}
+
+			if ($('#best-book').length) {
+
+				Morris.Bar({
+					element : 'best-book',
+					data : [ {
+						x : 'some director',
+						a : 1.4
+					}, {
+						x : 'some director',
+						a : 2.2
+					}, {
+						x : 'some director',
+						a : 3
+					}, {
+						x : 'some director',
+						a : 4
+					}, {
+						x : 'some director',
+						a : 5
+					}, {
+						x : 'some director',
+						a : 6
+					}, {
+						x : 'some director',
+						a : 7
+					}, {
+						x : 'some director',
+						a : 8
+					}, {
+						x : 'some director',
+						a : 9
+					}, {
+						x : 'some director',
+						a : 2
+					} ],
+					xkey : 'x',
+					ykeys : [ 'a' ],
+					labels : [ 'A' ]
+				});
+
+			}
+
+			if ($('#best-director').length) {
+
+				Morris.Bar({
+					element : 'best-director',
+					data : [ {
+						x : 'some director',
+						a : 1.4
+					}, {
+						x : 'some director',
+						a : 2.2
+					}, {
+						x : 'some director',
+						a : 3
+					}, {
+						x : 'some director',
+						a : 4
+					}, {
+						x : 'some director',
+						a : 5
+					}, {
+						x : 'some director',
+						a : 6
+					}, {
+						x : 'some director',
+						a : 7
+					}, {
+						x : 'some director',
+						a : 8
+					}, {
+						x : 'some director',
+						a : 9
+					}, {
+						x : 'some director',
+						a : 2
+					} ],
+					xkey : 'x',
+					ykeys : [ 'a' ],
+					labels : [ 'A' ]
+				});
+
+			}
+
+			if ($('#best-actor').length) {
+
+				Morris.Bar({
+					element : 'best-actor',
+					data : [ {
+						x : 'some director',
+						a : 1.4
+					}, {
+						x : 'some director',
+						a : 2.2
+					}, {
+						x : 'some director',
+						a : 3
+					}, {
+						x : 'some director',
+						a : 4
+					}, {
+						x : 'some director',
+						a : 5
+					}, {
+						x : 'some director',
+						a : 6
+					}, {
+						x : 'some director',
+						a : 7
+					}, {
+						x : 'some director',
+						a : 8
+					}, {
+						x : 'some director',
+						a : 9
+					}, {
+						x : 'some director',
+						a : 2
+					} ],
+					xkey : 'x',
+					ykeys : [ 'a' ],
+					labels : [ 'A' ]
+				});
+
+			}
+		}
+
 		$(document).ready(function() {
 			pageSetUp();
 		});
