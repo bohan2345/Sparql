@@ -320,7 +320,7 @@
 								<!-- widget content -->
 								<div class="widget-body no-padding">
 
-									<div id="best-movie" class="chart no-padding"></div>
+									<div id="top_10_movies" class="chart no-padding"></div>
 
 								</div>
 								<!-- end widget content -->
@@ -341,7 +341,7 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-edit"></i>
 								</span>
-								<h2>Top 10 Movies Sparql Query</h2>
+								<h2>Top 10 Books Sparql Query</h2>
 							</header>
 							<div>
 								<div class="widget-body no-padding">
@@ -380,7 +380,7 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-bar-chart-o"></i>
 								</span>
-								<h2>Top 10 Actors/Actresses</h2>
+								<h2>Top 10 Books</h2>
 
 							</header>
 
@@ -397,7 +397,7 @@
 								<!-- widget content -->
 								<div class="widget-body no-padding">
 
-									<div id="best-actor" class="chart no-padding"></div>
+									<div id="top_10_books" class="chart no-padding"></div>
 
 								</div>
 								<!-- end widget content -->
@@ -416,7 +416,7 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-edit"></i>
 								</span>
-								<h2>Top 10 Movies Sparql Query</h2>
+								<h2>Movie Book Compare</h2>
 							</header>
 							<div>
 								<div class="widget-body no-padding">
@@ -454,7 +454,7 @@
 							<header>
 								<span class="widget-icon"> <i class="fa fa-bar-chart-o"></i>
 								</span>
-								<h2>Top 10 Books</h2>
+								<h2>Movie Book compare</h2>
 
 							</header>
 
@@ -471,7 +471,7 @@
 								<!-- widget content -->
 								<div class="widget-body no-padding">
 
-									<div id="best-book" class="chart no-padding"></div>
+									<div id="movie_book_compare" class="chart no-padding"></div>
 
 								</div>
 								<!-- end widget content -->
@@ -485,193 +485,6 @@
 			</div>
 		</div>
 	</div>
-
-	<script type="text/javascript">
-		window.HW = {};
-		$.ajax({
-			url : "http://localhost:8080/Sparql/data/test1.json",
-			contentType : "application/json",
-			success : function(data) {
-				window.HW.test1 = data;
-				init();
-			}
-		});
-
-		function init() {
-			console.log(window.HW.test1);
-			if ($('#best-movie').length) {
-
-				Morris.Bar({
-					element : 'best-movie',
-					data : [ {
-						x : 'some director',
-						y : 4.3,
-						a : 5.4
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 3
-					}, {
-						x : 'some director',
-						a : 4
-					}, {
-						x : 'some director',
-						a : 5
-					}, {
-						x : 'some director',
-						a : 6
-					}, {
-						x : 'some director',
-						a : 7
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 9
-					}, {
-						x : 'some director',
-						a : 2
-					} ],
-					xkey : 'x',
-					ykeys : [ 'a', 'y' ],
-					labels : [ 'A' ]
-				});
-
-			}
-
-			if ($('#best-book').length) {
-
-				Morris.Bar({
-					element : 'best-book',
-					data : [ {
-						x : 'some director',
-						a : 1.4
-					}, {
-						x : 'some director',
-						a : 2.2
-					}, {
-						x : 'some director',
-						a : 3
-					}, {
-						x : 'some director',
-						a : 4
-					}, {
-						x : 'some director',
-						a : 5
-					}, {
-						x : 'some director',
-						a : 6
-					}, {
-						x : 'some director',
-						a : 7
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 9
-					}, {
-						x : 'some director',
-						a : 2
-					} ],
-					xkey : 'x',
-					ykeys : [ 'a' ],
-					labels : [ 'A' ]
-				});
-
-			}
-
-			if ($('#best-director').length) {
-
-				Morris.Bar({
-					element : 'best-director',
-					data : [ {
-						x : 'some director',
-						a : 1.4
-					}, {
-						x : 'some director',
-						a : 2.2
-					}, {
-						x : 'some director',
-						a : 3
-					}, {
-						x : 'some director',
-						a : 4
-					}, {
-						x : 'some director',
-						a : 5
-					}, {
-						x : 'some director',
-						a : 6
-					}, {
-						x : 'some director',
-						a : 7
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 9
-					}, {
-						x : 'some director',
-						a : 2
-					} ],
-					xkey : 'x',
-					ykeys : [ 'a' ],
-					labels : [ 'A' ]
-				});
-
-			}
-
-			if ($('#best-actor').length) {
-
-				Morris.Bar({
-					element : 'best-actor',
-					data : [ {
-						x : 'some director',
-						a : 1.4
-					}, {
-						x : 'some director',
-						a : 2.2
-					}, {
-						x : 'some director',
-						a : 3
-					}, {
-						x : 'some director',
-						a : 4
-					}, {
-						x : 'some director',
-						a : 5
-					}, {
-						x : 'some director',
-						a : 6
-					}, {
-						x : 'some director',
-						a : 7
-					}, {
-						x : 'some director',
-						a : 8
-					}, {
-						x : 'some director',
-						a : 9
-					}, {
-						x : 'some director',
-						a : 2
-					} ],
-					xkey : 'x',
-					ykeys : [ 'a' ],
-					labels : [ 'A' ]
-				});
-
-			}
-		}
-
-		$(document).ready(function() {
-			pageSetUp();
-		});
-	</script>
+	<script type="text/javascript" src="dfghj.js"></script>
 </body>
 </html>
