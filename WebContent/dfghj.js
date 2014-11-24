@@ -133,8 +133,8 @@ function init() {
 			xkey : 'x',
 			ykeys : [ 'a' , 'b'],
 			labels : [ 'Movie rating', 'Book rating' ],
-			xLabelAngle: 60,
-			gridTextSize: 5
+			xLabelAngle: 45,
+			gridTextSize: 10
 			
 		});
 
@@ -178,8 +178,8 @@ function init() {
 			xkey : 'x',
 			ykeys : [ 'a' ],
 			labels : [ 'Number of Movies' ],
-			xLabelAngle: 60,
-			gridTextSize: 5,
+			xLabelAngle: 45,
+			gridTextSize: 10,
 		});
 
 	}

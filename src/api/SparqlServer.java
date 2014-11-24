@@ -40,9 +40,9 @@ public class SparqlServer extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String x = request.getParameter("ex");
-		new MovieGenreCount().get(JSONPATH0);
-		new DirectorWithRating().get(JSONPATH0);
-		new BookMovieRating().get(JSONPATH0);
+		new MovieGenreCount().get(JSONPATH);
+		new DirectorWithRating().get(JSONPATH);
+		new BookMovieRating().get(JSONPATH);
 		response.sendRedirect("example.jsp");
 //		PrintWriter out = response.getWriter();
 //		out.write(ex1);
