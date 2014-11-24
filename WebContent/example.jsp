@@ -376,7 +376,6 @@ WHERE{
 ?movie hw:imdbrating ?mrating .
 ?movie hw:movie_title ?mname .
 ?book hw:book_title ?bname .
-FILTER (?brating >=3.5 && ?mrating >=7.5)
 } 
 ORDER BY DESC(?mrating)
  </textarea>

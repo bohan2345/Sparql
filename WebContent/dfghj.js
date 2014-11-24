@@ -92,49 +92,51 @@ function init() {
 			data : [ {
 				x : data2.results.bindings[0].mname.value,
 				a : data2.results.bindings[0].mrating.value,
-				b:  data2.results.bindings[0].brating.value
+				b:  data2.results.bindings[0].brating.value * 2
 			}, {
 				x : data2.results.bindings[1].mname.value,
 				a : data2.results.bindings[1].mrating.value,
-				b:  data2.results.bindings[1].brating.value
+				b:  data2.results.bindings[1].brating.value* 2
 			}, {
 				x : data2.results.bindings[2].mname.value,
 				a : data2.results.bindings[2].mrating.value,
-				b:  data2.results.bindings[2].brating.value
+				b:  data2.results.bindings[2].brating.value* 2
 			}, {
 				x : data2.results.bindings[3].mname.value,
 				a : data2.results.bindings[3].mrating.value,
-				b:  data2.results.bindings[3].brating.value
+				b:  data2.results.bindings[3].brating.value* 2
 			}, {
 				x : data2.results.bindings[4].mname.value,
 				a : data2.results.bindings[4].mrating.value,
-				b:  data2.results.bindings[4].brating.value
+				b:  data2.results.bindings[4].brating.value* 2
 			}, {
 				x : data2.results.bindings[5].mname.value,
 				a : data2.results.bindings[5].mrating.value,
-				b:  data2.results.bindings[5].brating.value
+				b:  data2.results.bindings[5].brating.value* 2
 			}, {
 				x : data2.results.bindings[6].mname.value,
 				a : data2.results.bindings[6].mrating.value,
-				b:  data2.results.bindings[6].brating.value
+				b:  data2.results.bindings[6].brating.value* 2
 			}, {
 				x : data2.results.bindings[7].mname.value,
 				a : data2.results.bindings[7].mrating.value,
-				b:  data2.results.bindings[7].brating.value
+				b:  data2.results.bindings[7].brating.value* 2
 			}, {
 				x : data2.results.bindings[8].mname.value,
 				a : data2.results.bindings[8].mrating.value,
-				b:  data2.results.bindings[8].brating.value
+				b:  data2.results.bindings[8].brating.value* 2
 			}, {
 				x : data2.results.bindings[9].mname.value,
 				a : data2.results.bindings[9].mrating.value,
-				b:  data2.results.bindings[9].brating.value
+				b:  data2.results.bindings[9].brating.value* 2
 			} ],
 			xkey : 'x',
 			ykeys : [ 'a' , 'b'],
 			labels : [ 'Movie rating', 'Book rating' ],
 			xLabelAngle: 45,
-			gridTextSize: 10
+			gridTextSize: 10,
+			ymin:7.6,
+			ymax:9.2
 			
 		});
 
